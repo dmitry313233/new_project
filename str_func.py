@@ -1,3 +1,7 @@
 def test(number):
-    """Возвращает строку с заглавными буквами"""
+    """Возвращает большие буквы"""
     return number.upper()
+
+def docstring(string):
+    '''Заглавные буква каждого слова'''
+    return string.title()
